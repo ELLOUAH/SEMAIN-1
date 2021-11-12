@@ -14,7 +14,7 @@ int main() {
 	scanf("%fl",&y1);
 	printf("donner la valeur de y2:");
 	scanf("%fl",&y2);
-	 m=sqrt(pow(x2-x1,2) + pow(y2-y1,2));
+	 m=sqrt (pow(x2-x1,2) + pow(y2-y1,2));
 	 printf("la distance entre deux points donnés est:%.2fl",m);
 	 	return 0;
 }
